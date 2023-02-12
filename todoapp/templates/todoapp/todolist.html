@@ -1,0 +1,17 @@
+<h1>Todo List Items</h1>
+
+<!-- {% csrf_token %} add this to bypass security  -->
+<form action="addTodoItem/" method="post">{% csrf_token %}
+    <input type="text" name="content">
+    <input type="submit" value="Add Todo Item">
+</form>
+
+
+<!-- showing todo items -->
+<ul>
+    {% for i in all_items %}
+    <li>
+        {{i.content}}
+    </li>
+    {% endfor %}
+</ul>
