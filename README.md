@@ -1,7 +1,7 @@
 I made a basic todo app here 
 The first thing to do is to clone the repository:
 
-  $ git clone https://github.com/shahank-attentive/todoproject.git
+    $ git clone https://github.com/shahank-attentive/todoproject.git
 
 
 Create a virtual environment to install dependencies in and activate it:
