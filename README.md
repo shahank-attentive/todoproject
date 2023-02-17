@@ -6,8 +6,8 @@ The first thing to do is to clone the repository:
 
 Create a virtual environment to install dependencies in and activate it:
 
-$ virtualenv2 -- env
-$ source env/bin/activate
+     $ virtualenv2 -- env
+     $ source env/bin/activate
 
 
 Then install the dependencies:
